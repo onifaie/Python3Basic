@@ -6,16 +6,16 @@ print (int(x1)+int(x2))
 
 def result(x):
     
-    if x<=50:
+    if x>=50 and x<=60:
         print ("fiuld")
-    if x<=60:
-        print("good")
-    if x<=70:
-        print("very good")
-    if x<=80:
-        print ("exlant")
-    if x<=100:
-        print("Prefict ")
-    
-    
-result(40)    
+    if x>=60 and x<=70:
+        print ("Good")
+    if x>=70 and x<=80:
+        print ("Very Good ")
+    if x>=90 and x<=100:
+        print ("Exlant")
+   
+        
+   
+x=input("enter the Your Mark  ")    
+result(int(x))    
