@@ -16,6 +16,7 @@ def result(x):
         print ("Exlant")
    
         
-   
+  #This varible to input value inside x  
 x=input("enter the Your Mark  ")    
+#this call funcation and send x as intger value to testing mark 
 result(int(x))    
